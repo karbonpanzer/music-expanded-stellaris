@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Biotech DLC CueData Patch -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Ancient mechanitor complex quest incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="GiveQuest_AncientComplex_Mechanitor"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>GiveQuest_AncientComplex_Mechanitor</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Refugee pod crash (baby) incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="RefugeePodCrash_Baby"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>RefugeePodCrash_Baby</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Polux tree spawn incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="PoluxTreeSpawn"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>PoluxTreeSpawn</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Noxious haze game condition -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="NoxiousHaze"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>NoxiousHaze</cueData>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Odyssey DLC CueData Patch -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Volcanic ash incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="VolcanicAsh"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>VolcanicAsh</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Seasonal flooding incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="SeasonalFlooding"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>SeasonalFlooding</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Boomshroom sprout incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="BoomshroomSprout"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>BoomshroomSprout</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Orbital debris incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="OrbitalDebris"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>OrbitalDebris</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Bioluminescent spores condition -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="BioluminescentSpores"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>BioluminescentSpores</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Drought condition -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="Drought"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>Drought</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Deep freeze condition -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="DeepFreeze"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>DeepFreeze</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Gravship world object -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="Gravship"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>Gravship</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Passenger shuttle world object -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="PassengerShuttle"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>PassengerShuttle</cueData>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

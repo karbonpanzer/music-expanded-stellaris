@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Ideology DLC CueData Patch -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Beggars quest incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="GiveQuest_Beggars"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>GiveQuest_Beggars</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Reliquary pilgrims quest incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="GiveQuest_ReliquaryPilgrims"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>GiveQuest_ReliquaryPilgrims</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Gauranlen pod spawn incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="GauranlenPodSpawn"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>GauranlenPodSpawn</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Insect jelly infestation incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="Infestation_Jelly"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>Infestation_Jelly</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Wanderers skylantern incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="WanderersSkylantern"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>WanderersSkylantern</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Second Archonexus Cycle world object -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="Settlement_SecondArchonexusCycle"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>Settlement_SecondArchonexusCycle</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Third Archonexus Cycle world object -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="Settlement_ThirdArchonexusCycle"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>Settlement_ThirdArchonexusCycle</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Abandoned Archotech Structures world object -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="AbandonedArchotechStructures"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>AbandonedArchotechStructures</cueData>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

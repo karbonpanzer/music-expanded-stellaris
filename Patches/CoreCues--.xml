@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Vanilla RimWorld CueData Patch -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+
+        <!-- IncidentDefs -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="RaidEnemy"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>RaidEnemy</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="RaidFriendly"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>RaidFriendly</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="TradeShipArrived"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>TradeShipArrived</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="TraderCaravanArrival"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>TraderCaravanArrival</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="RefugeePodCrash"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>RefugeePodCrash</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="Infestation"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Infestation</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="DiseaseOutbreak"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>DiseaseOutbreak</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="Quest_PsychicDrone"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Quest_PsychicDrone</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="Quest_Lump"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Quest_Lump</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="Quest_ShipPartCrash"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Quest_ShipPartCrash</cueData></li>
+          </value>
+        </li>
+
+        <!-- WorldObjectDefs -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="CrashShip"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>CrashShip</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="TraderCaravan"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>TraderCaravan</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="VisitorCaravan"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>VisitorCaravan</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="Settlement"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Settlement</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="AncientRuins"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>AncientRuins</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="Site_SmallRuins"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Site_SmallRuins</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="Site_LargeRuins"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Site_LargeRuins</cueData></li>
+          </value>
+        </li>
+
+        <!-- GameConditionDefs -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="ToxicFallout"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>ToxicFallout</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="ColdSnap"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>ColdSnap</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="HeatWave"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>HeatWave</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="SolarFlare"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>SolarFlare</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="VolcanicWinter"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>VolcanicWinter</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="PsychicDrone"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>PsychicDrone</cueData></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/GameConditionDef[defName="Tornado"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue"><cue>Custom</cue><cueData>Tornado</cueData></li>
+          </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+</Patch>

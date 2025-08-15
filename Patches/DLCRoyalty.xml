@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Royalty DLC CueData Patch -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Mech cluster -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="MechCluster"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>MechCluster</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Tribute collector caravan arrival -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="CaravanArrivalTributeCollector"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>CaravanArrivalTributeCollector</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Anima tree spawn -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="AnimaTreeSpawn"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>AnimaTreeSpawn</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Problem causer incident -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/IncidentDef[defName="ProblemCauser"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>ProblemCauser</cueData>
+            </li>
+          </value>
+        </li>
+        <!-- Imperial shuttle world object -->
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/WorldObjectDef[defName="TravelingShuttle"]</xpath>
+          <value>
+            <li Class="MusicExpanded.ModExtension.PlayCue">
+              <cue>Custom</cue>
+              <cueData>TravelingShuttle</cueData>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

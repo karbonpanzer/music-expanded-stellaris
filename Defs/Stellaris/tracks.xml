@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Ambient / Exploration & Narrative -->
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_001</defName>
+		<label>Stellaris – A New Dawn</label>
+		<clipPath>MusicExpanded/Stellaris/A_NEW_DAWN</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_002</defName>
+		<label>Stellaris – Abyss</label>
+		<clipPath>MusicExpanded/Stellaris/ABYSS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_003</defName>
+		<label>Stellaris – Adagio Stellar</label>
+		<clipPath>MusicExpanded/Stellaris/ADAGIO_STELLAR</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_004</defName>
+		<label>Stellaris – Alpha Centauri</label>
+		<clipPath>MusicExpanded/Stellaris/ALPHA_CENTAURI_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_005</defName>
+		<label>Stellaris – Among The Ruins</label>
+		<clipPath>MusicExpanded/Stellaris/AMONG_THE_RUINS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_008</defName>
+		<label>Stellaris – Beyond</label>
+		<clipPath>MusicExpanded/Stellaris/BEYOND</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_009</defName>
+		<label>Stellaris – Blade</label>
+		<clipPath>MusicExpanded/Stellaris/BLADE</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_011</defName>
+		<label>Stellaris – City Of Arcane</label>
+		<clipPath>MusicExpanded/Stellaris/CITY_OF_ARCANE</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_012</defName>
+		<label>Stellaris – Coronation Of The Dark Emperor</label>
+		<clipPath>MusicExpanded/Stellaris/CORONATION_OF_THE_DARK_EMPEROR</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_013</defName>
+		<label>Stellaris – Cradle Of The Galaxy</label>
+		<clipPath>MusicExpanded/Stellaris/CRADLE_OF_THE_GALAXY</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_014</defName>
+		<label>Stellaris – Dark Minds</label>
+		<clipPath>MusicExpanded/Stellaris/DARK_MINDS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_015</defName>
+		<label>Stellaris – Deep Space Travels</label>
+		<clipPath>MusicExpanded/Stellaris/DEEP_SPACE_TRAVELS_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_016</defName>
+		<label>Stellaris – Distant Nebula</label>
+		<clipPath>MusicExpanded/Stellaris/DISTANT_NEBULA_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_017</defName>
+		<label>Stellaris – Distant Nebula Instrumental</label>
+		<clipPath>MusicExpanded/Stellaris/DISTANT_NEBULA_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK_INSTRUMENTAL</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_018</defName>
+		<label>Stellaris – Doomsday</label>
+		<clipPath>MusicExpanded/Stellaris/DOOMSDAY</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_019</defName>
+		<label>Stellaris – Dragon Breath</label>
+		<clipPath>MusicExpanded/Stellaris/DRAGON_BREATH</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_020</defName>
+		<label>Stellaris – Eternal Dance Of Photons</label>
+		<clipPath>MusicExpanded/Stellaris/ETERNAL_DANCE_OF_PHOTONS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_021</defName>
+		<label>Stellaris – Faster Than Light</label>
+		<clipPath>MusicExpanded/Stellaris/FASTER_THAN_LIGHT_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_022</defName>
+		<label>Stellaris – Faster Than Light Instrumental</label>
+		<clipPath>MusicExpanded/Stellaris/FASTER_THAN_LIGHT_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK_INSTRUMENTAL</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_023</defName>
+		<label>Stellaris – Finding Sanctuary</label>
+		<clipPath>MusicExpanded/Stellaris/FINDING_SANCTUARY</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_025</defName>
+		<label>Stellaris – Genesis</label>
+		<clipPath>MusicExpanded/Stellaris/GENESIS_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_026</defName>
+		<label>Stellaris – Grand Archive</label>
+		<clipPath>MusicExpanded/Stellaris/GRAND_ARCHIVE</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_027</defName>
+		<label>Stellaris – Gravitational Constant</label>
+		<clipPath>MusicExpanded/Stellaris/GRAVITATIONAL_CONSTANT_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_028</defName>
+		<label>Stellaris – Hegemonic Dominion</label>
+		<clipPath>MusicExpanded/Stellaris/HEGEMONIC_DOMINION</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_029</defName>
+		<label>Stellaris – Hidden Motives</label>
+		<clipPath>MusicExpanded/Stellaris/HIDDEN_MOTIVES</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_031</defName>
+		<label>Stellaris – In Memory Of Mr</label>
+		<clipPath>MusicExpanded/Stellaris/IN_MEMORY_OF_MR</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_032</defName>
+		<label>Stellaris – In Memory Of Mr Luminous</label>
+		<clipPath>MusicExpanded/Stellaris/IN_MEMORY_OF_MR_LUMINOUS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_033</defName>
+		<label>Stellaris – In Search Of Life</label>
+		<clipPath>MusicExpanded/Stellaris/IN_SEARCH_OF_LIFE_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_034</defName>
+		<label>Stellaris – Infinite Being</label>
+		<clipPath>MusicExpanded/Stellaris/INFINITE_BEING_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_035</defName>
+		<label>Stellaris – Infinite Being Additional Take</label>
+		<clipPath>MusicExpanded/Stellaris/INFINITE_BEING_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK_ADDITIONAL_TAKE</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_036</defName>
+		<label>Stellaris – Into The Dark</label>
+		<clipPath>MusicExpanded/Stellaris/INTO_THE_DARK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_037</defName>
+		<label>Stellaris – Journey Beyond The Galaxy</label>
+		<clipPath>MusicExpanded/Stellaris/JOURNEY_BEYOND_THE_GALAXY_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_038</defName>
+		<label>Stellaris – Luminescence</label>
+		<clipPath>MusicExpanded/Stellaris/LUMINESCENCE_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_039</defName>
+		<label>Stellaris – Methonos</label>
+		<clipPath>MusicExpanded/Stellaris/METHONOS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_042</defName>
+		<label>Stellaris – Our Heritage</label>
+		<clipPath>MusicExpanded/Stellaris/OUR_HERITAGE</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_043</defName>
+		<label>Stellaris – Pillars Of Creation</label>
+		<clipPath>MusicExpanded/Stellaris/PILLARS_OF_CREATION_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_044</defName>
+		<label>Stellaris – Primal Calling</label>
+		<clipPath>MusicExpanded/Stellaris/PRIMAL_CALLING</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_045</defName>
+		<label>Stellaris – Quantum Soul</label>
+		<clipPath>MusicExpanded/Stellaris/QUANTUM_SOUL</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_046</defName>
+		<label>Stellaris – Quantum Spawn</label>
+		<clipPath>MusicExpanded/Stellaris/QUANTUM_SPAWN</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_047</defName>
+		<label>Stellaris – Riding The Solar Wind</label>
+		<clipPath>MusicExpanded/Stellaris/RIDING_THE_SOLAR_WIND_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_048</defName>
+		<label>Stellaris – Robotics</label>
+		<clipPath>MusicExpanded/Stellaris/ROBOTICS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_049</defName>
+		<label>Stellaris – Robotics And Beyond</label>
+		<clipPath>MusicExpanded/Stellaris/ROBOTICS_AND_BEYOND</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_050</defName>
+		<label>Stellaris – Sigmatarui</label>
+		<clipPath>MusicExpanded/Stellaris/SIGMATAURI_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_051</defName>
+		<label>Stellaris – Spatial Lullaby</label>
+		<clipPath>MusicExpanded/Stellaris/SPATIAL_LULLABY_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_052</defName>
+		<label>Stellaris – Stargazer</label>
+		<clipPath>MusicExpanded/Stellaris/STARGAZER</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_053</defName>
+		<label>Stellaris – Stellaris Suite: Creation And Beyond</label>
+		<clipPath>MusicExpanded/Stellaris/STELLARIS_SUITE__CREATION_AND_BEYOND_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_055</defName>
+		<label>Stellaris – Synthetic God</label>
+		<clipPath>MusicExpanded/Stellaris/SYNTHETIC_GOD</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_056</defName>
+		<label>Stellaris – Synthetic Sun</label>
+		<clipPath>MusicExpanded/Stellaris/SYNTHETIC_SUN</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_057</defName>
+		<label>Stellaris – The Awakened</label>
+		<clipPath>MusicExpanded/Stellaris/THE_AWAKENED</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_058</defName>
+		<label>Stellaris – The Birth Of A Star</label>
+		<clipPath>MusicExpanded/Stellaris/THE_BIRTH_OF_A_STAR_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_059</defName>
+		<label>Stellaris – The Celestial City</label>
+		<clipPath>MusicExpanded/Stellaris/THE_CELESTIAL_CITY_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_060</defName>
+		<label>Stellaris – The Formless</label>
+		<clipPath>MusicExpanded/Stellaris/THE_FORMLESS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_061</defName>
+		<label>Stellaris – The Imperial Fleet</label>
+		<clipPath>MusicExpanded/Stellaris/THE_IMPERIAL_FLEET</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_062</defName>
+		<label>Stellaris – The Imperial Fleet Second Coming</label>
+		<clipPath>MusicExpanded/Stellaris/THE_IMPERIAL_FLEET_SECOND_COMING</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_064</defName>
+		<label>Stellaris – The March Of Profits</label>
+		<clipPath>MusicExpanded/Stellaris/THE_MARCH_OF_PROFITS</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_065</defName>
+		<label>Stellaris – The Master Plan</label>
+		<clipPath>MusicExpanded/Stellaris/THE_MASTER_PLAN</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_066</defName>
+		<label>Stellaris – The Titan</label>
+		<clipPath>MusicExpanded/Stellaris/THE_TITAN</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_067</defName>
+		<label>Stellaris – Then Comes Light</label>
+		<clipPath>MusicExpanded/Stellaris/THEN_COMES_LIGHT</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_068</defName>
+		<label>Stellaris – Through The Astral Rift</label>
+		<clipPath>MusicExpanded/Stellaris/THROUGH_THE_ASTRAL_RIFT</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_070</defName>
+		<label>Stellaris – To The End Of The Galaxy</label>
+		<clipPath>MusicExpanded/Stellaris/TO_THE_END_OF_THE_GALAXY_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_071</defName>
+		<label>Stellaris – To The End Of The Galaxy Additional Take</label>
+		<clipPath>MusicExpanded/Stellaris/TO_THE_END_OF_THE_GALAXY_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK_ADDITIONAL_TAKE</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_072</defName>
+		<label>Stellaris – Towards Utopia</label>
+		<clipPath>MusicExpanded/Stellaris/TOWARDS_UTOPIA</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_073</defName>
+		<label>Stellaris – Towards Utopia Nova Flare</label>
+		<clipPath>MusicExpanded/Stellaris/TOWARDS_UTOPIA_NOVA_FLARE</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_074</defName>
+		<label>Stellaris – Undercurrent</label>
+		<clipPath>MusicExpanded/Stellaris/UNDERCURRENT</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_075</defName>
+		<label>Stellaris – Unity And Paperwork</label>
+		<clipPath>MusicExpanded/Stellaris/UNITY_AND_PAPERWORK</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_076</defName>
+		<label>Stellaris – Voidworm</label>
+		<clipPath>MusicExpanded/Stellaris/VOIDWORM</clipPath>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_077</defName>
+		<label>Stellaris – A Brighter Tomorrow</label>
+		<clipPath>MusicExpanded/Stellaris/A_BRIGHTER_TOMORROW</clipPath>
+	</MusicExpanded.TrackDef>
+
+	<!-- Menu / Credits -->
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_040</defName>
+		<label>Stellaris – Nemesis Main Theme</label>
+		<clipPath>MusicExpanded/Stellaris/NEMESIS_MAIN_THEME</clipPath>
+		<cue>MainMenu</cue>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_041</defName>
+		<label>Stellaris – One Galaxy</label>
+		<clipPath>MusicExpanded/Stellaris/ONE_GALAXY</clipPath>
+		<cue>Credits</cue>
+	</MusicExpanded.TrackDef>
+
+	<!-- BattleSmall -->
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_030</defName>
+		<label>Stellaris – Hostile Fleet Detected</label>
+		<clipPath>MusicExpanded/Stellaris/HOSTILE_FLEET_DETECTED</clipPath>
+		<cue>BattleSmall</cue>
+	</MusicExpanded.TrackDef>
+
+	<!-- BattleMedium -->
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_006</defName>
+		<label>Stellaris – Assembling The Fleet</label>
+		<clipPath>MusicExpanded/Stellaris/ASSEMBLING_THE_FLEET</clipPath>
+		<cue>BattleMedium</cue>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_010</defName>
+		<label>Stellaris – Call To Assembly</label>
+		<clipPath>MusicExpanded/Stellaris/CALL_TO_ASSEMBLY</clipPath>
+		<cue>BattleMedium</cue>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_024</defName>
+		<label>Stellaris – Gather The Fleet</label>
+		<clipPath>MusicExpanded/Stellaris/GATHER_THE_FLEET</clipPath>
+		<cue>BattleMedium</cue>
+	</MusicExpanded.TrackDef>
+
+	<!-- BattleLarge -->
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_007</defName>
+		<label>Stellaris – Battle For Supremacy From Stellaris Original Game Soundtrack</label>
+		<clipPath>MusicExpanded/Stellaris/BATTLE_FOR_SUPREMACY_FROM_STELLARIS_ORIGINAL_GAME_SOUNDTRACK</clipPath>
+		<cue>BattleLarge</cue>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_054</defName>
+		<label>Stellaris – Super Massive Fleet</label>
+		<clipPath>MusicExpanded/Stellaris/SUPER_MASSIVE_FLEET</clipPath>
+		<cue>BattleLarge</cue>
+	</MusicExpanded.TrackDef>
+
+	<!-- BattleLegendary -->
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_063</defName>
+		<label>Stellaris – The Last Stand</label>
+		<clipPath>MusicExpanded/Stellaris/THE_LAST_STAND</clipPath>
+		<cue>BattleLegendary</cue>
+	</MusicExpanded.TrackDef>
+	<MusicExpanded.TrackDef>
+		<defName>ME_ST_069</defName>
+		<label>Stellaris – Titanomachia II</label>
+		<clipPath>MusicExpanded/Stellaris/TITANOMACHIA_II</clipPath>
+		<cue>BattleLegendary</cue>
+	</MusicExpanded.TrackDef>
+
+</Defs>
